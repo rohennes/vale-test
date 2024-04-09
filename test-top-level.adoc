@@ -1,0 +1,11 @@
+These terms are on the accept.text list:  Westport and VFs.
+This term is on the reject.txt list:  AI.
+
+The `OpenShiftAsciiDoc.NoXrefInModules` rule, which has a raw scope, flags xrefs in a file in the modules folder:
+Insert an xref: xref:../test.adoc#test[test].
+
+The `OpenShiftAsciiDoc.NoTocInModules` rule, which has a raw scope, flags on a table of contents in a file in the modules folder.
+
+toc::[]
+
+Try the OpenShift Container Platform. 
